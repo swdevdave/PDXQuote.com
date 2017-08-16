@@ -1,9 +1,11 @@
 # PDXQuote.com
 
 V 0.1
+
 Create default page- Done
 
 V 0.2
+
 Create header & Footer - Done
 
 V 0.5
@@ -11,7 +13,6 @@ V 0.5
 Create the design flow of the page- Done
 
 V 0.9
-
 
 Compelte defalt page - Done
 Complete Quote pages- Done
