@@ -1,4 +1,4 @@
-# PDXQuote.com
+# PDXQuote.com - Current page is provided by Company - Cookie cutter design with no ability to make changes. Creating page using .Net/C# and SQL and AWS. All design is done by me.
 
 V 0.1
 
