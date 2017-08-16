@@ -1,0 +1,174 @@
+﻿.navbar-text > a {
+    color: #005daa;
+    text-decoration: none;
+}
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 400;
+    padding: 50px 5px 50px 5px;
+}
+
+
+.ddl {
+    font-size: x-large;
+    border-radius: 5px;
+    
+}
+
+#agentPicture {
+    border-radius: 25px;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% ;
+        height: 100% ;
+}
+
+.navbar-custom {
+    background-color:#2C3E50;
+    border-color: #FFFFFF;
+    color: #FFFFFF;
+}
+
+.navbar-custom .navbar-nav > li > a {
+    color:#FFFFFF;
+}
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:hover,
+.navbar-custom .navbar-nav > .active > a:focus{
+    color:#FFFFFF;
+    background-color:#1A242F;
+}
+
+.navbar-custom .navbar-nav > li > a:hover,
+.navbar-custom .navbar-nav > li > a:focus{
+    color:#18BC9C;
+    background-color:transparent;
+}
+.content {
+    height:auto;
+    padding-top: 5px;
+    text-align: center;
+    margin-bottom:10px;
+    
+
+}
+
+#wizHeader li .prevStep {
+    background-color: #2a5ddd;
+}
+
+#wizHeader li .prevStep:after {
+        border-left-color: #2a5ddd;
+    }
+
+#wizHeader li .currentStep {
+    background-color: #1480c3;
+}
+
+#wizHeader li .currentStep:after {
+        border-left-color: #1480c3;
+    }
+
+#wizHeader li .nextStep {
+    background-color: #2C3E50;
+}
+
+#wizHeader li .nextStep:after {
+        border-left-color: #2C3E50;
+    }
+
+#wizHeader {
+    list-style: none;
+    overflow: hidden;
+    font: 12px Helvetica, Arial, Sans-Serif;
+}
+
+#wizHeader li {
+    float: left;
+}
+
+#wizHeader li a {
+    color: white;
+    text-decoration: none;
+    padding: 7px 7px 7px 7px;
+    background: brown; /* fallback color */
+    background: hsla(34,85%,35%,1);
+    position: relative;
+    display: block;
+    float: left;
+}
+
+    #wizHeader li a:after {
+        content: " ";
+        display: block;
+        /* width: 0;
+        height: 0;
+        border-top: 0px solid transparent;  Go big on the size, and let overflow hide 
+        border-bottom: 0px solid transparent;*/
+        border-left: 10px solid hsla(34,85%,35%,1);
+        position: absolute;
+        top: 80%;
+        margin-top: -50px;
+        left: 100%;
+        z-index: 2;
+    }
+
+#wizHeader li a:before {
+    content: " ";
+    display: block;
+    /* width: 0;
+    height: 0;
+    border-top: 00px solid transparent;
+    border-bottom: 0px solid transparent; */
+    border-left: 10px solid white;
+    position: absolute;
+    top: 50%;
+    margin-top: -50px;
+    left: 100%;
+    z-index: 1;
+}
+
+#wizHeader li:first-child a {
+padding-left: 5px;
+}
+
+#wizHeader li:last-child {
+padding-right: 40px;
+}
+
+#wizHeader li a:hover {
+    background: #105056;
+    }
+#wizHeader li a:hover:after {
+    border-left-color: #105056 ;
+    }
+
+
+.Hidden2,.Hidden3,.Hidden4{
+    display:none;
+}
+
+
+.Vhidden1, .Vhidden2,.Vhidden3,.Vhidden4,.Vhidden5{
+    display:none;
+}
+
+.TagDef{
+    font-weight:bold;
+}
+
+#srbutton{
+    color:white;
+}
