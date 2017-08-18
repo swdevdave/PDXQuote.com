@@ -29,9 +29,9 @@
 
 - Create Classes - Done
 
-- Add Navigation buttons on the bottom of pages forward and back for Auto Quote (EZ)
+- Add Navigation buttons on the bottom of pages forward and back for Auto Quote
 
-- Store the data to ADO (Harder).. CRUD
+- Store the data to SQL  (CRUD)
 
 - Create the form that will be sent to my email upon completion of a quote (Not sure how I want this yet)
 
