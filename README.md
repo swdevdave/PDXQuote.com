@@ -1,7 +1,7 @@
 # PDXQuote.com
 ***
 
-## Creating an Insurance Agent page using Agile Deployement. Page is written in .Net/C# and SQL and will be deployed to  AWS. All design and developemnt is done by myself.
+## Creating an Insurance Agent page using Agile Deployment. Page is written in .Net Framework with C# & SQL, and will be deployed to  AWS. All design and developemnt is done by myself.
 
 ***
 
