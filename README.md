@@ -1,4 +1,4 @@
-# PDXQuote.com - Current page is provided by Company - Cookie cutter design with no ability to make changes. Creating page using .Net/C# and SQL and AWS. All design is done by me.
+# PDXQuote.com -  Creating an Insurance agent page using Agile Deployement. Page is written in .Net/C# and SQL and will be deployed to  AWS. All design and developemnt is done by myself.
 
 #### V 0.1
 
