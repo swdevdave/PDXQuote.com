@@ -7,50 +7,52 @@
 
 ### V 0.1
 
-Create default page- Done
+- Create default page- Done
 
 ### V 0.2
 
-Create Header & Footer - Done
+- Create Header & Footer - Done
 
 ### V 0.5
 
-Create the design flow of the page- Done
+- Create the design flow of the page- Done
 
 ### V 0.9 - Current
 
-Compelte defalt page - Done
+- Compelte defalt page - Done
 
-Complete Quote pages- Done
+- Complete Quote pages- Done
 
-Link Pages- Done
+- Link Pages- Done
 
-Add validations to Coverages/Drivers/Underwriting/Vehicles
+- Add validations to Coverages/Drivers/Underwriting/Vehicles
 
 ### V 1.0
 
-Create Classes - Done
+- Create Classes - Done
 
-Add Navigation buttons on the bottom of pages forward and back for Auto Quote (EZ)
+- Add Navigation buttons on the bottom of pages forward and back for Auto Quote (EZ)
 
-Store the data to ADO (Harder).. CRUD
+- Store the data to ADO (Harder).. CRUD
 
-Create the form that will be sent to my email upon completion of a quote (Not sure how I want this yet)
+- Create the form that will be sent to my email upon completion of a quote (Not sure how I want this yet)
 
-link up form to be sent to work email address. Either though a Db or locally maybe JQuery? (medium) Maybe other way.. PHP?
+- Link up form to be sent to work email address. Either though a Db or locally maybe JQuery? (medium) Maybe other way.. PHP?
 
-Test locally
+- Test locally
 
-Publish to AWS
+- Publish to AWS
 
-Update Domain to point to www.pdxquote.com
+- Update Domain to point to www.pdxquote.com
 
 - Compelted V1.0 Go live!
 
 ### V 2.0
 
 - Additional Validations
+
 - Test on other browswers
+
 - Verify Mobile Compatibilty
 
 
@@ -62,8 +64,11 @@ Update Domain to point to www.pdxquote.com
 ### V 4.0
 
 - Create new Dropdown for Self Service
+
 - Address changes/Contant info changes.
+
 - Add remove vehcicles
+
 - 
 
 ### V5.0
