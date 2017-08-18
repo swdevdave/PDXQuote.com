@@ -5,9 +5,9 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace AgentWebSite.Quotes
+namespace AgentWebSite.Quotes.Auto
 {
-    public partial class AutoQuoteDrivers : System.Web.UI.Page
+    public partial class Drivers : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {

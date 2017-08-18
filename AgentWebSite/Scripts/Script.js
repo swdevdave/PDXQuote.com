@@ -22,7 +22,7 @@
     }
 });
 
-$('#TotalVehciles').on('change', function () {
+$('#TotalVehicles').on('change', function () {
     //  alert( this.value ); // or $(this).val()
     if (this.value === "1") {
         $('.Vhidden1').show();

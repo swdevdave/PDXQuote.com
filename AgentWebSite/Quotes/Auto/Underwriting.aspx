@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Underwriting.aspx.cs" Inherits="AgentWebSite.Quotes.AutoQuoteUnderwriting" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Underwriting.aspx.cs" Inherits="AgentWebSite.Quotes.Auto.Underwriting" %>
 
 <!DOCTYPE html>
 
@@ -13,8 +13,10 @@
     <link href="../../Content/bootstrap.min.css" rel="stylesheet" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400" rel="stylesheet"/>
     <link href="../../Content/jquery.steps.css" rel="stylesheet" />
+    <link href="../../Content/font-awesome.min.css" rel="stylesheet" />
 </head>
 <body>      
+    <form id="form1" runat="server">
  <!-- Nav -->
     <div class="navbar navbar-custom navbar-fixed-top" role="navigation">
         <div class="container">
@@ -38,9 +40,38 @@
         </div>
     </div>
  <!--End Nav -->
+    <h1 style="text-align:center">Underwriting</h1>
+         <!-- Progress Icons -->
+      <div class="row">
+          <div class="col-md-3 col-lg-3"></div>
+          <div class="col-md-6 col-lg-6" >
 
-<div class="content">
-                    <table>
+              <a class="btn btn-sm btn-dark">
+              <i class="fa fa-user-o" aria-hidden="true" ></i> Client Info</a>
+
+              <a class="btn btn-dark">
+              <i class="fa fa-id-card" aria-hidden="true"></i> Drivers</a>
+        
+              <a class="btn btn-primary">
+              <i class="fa fa-list-alt" aria-hidden="true"> Underwriting</i></a>
+
+              <a class="btn btn-dark">
+              <i class="fa fa-car" aria-hidden="true"> Vehicles</i></a>
+
+              <a class="btn btn-dark">
+              <i class="fa fa-check" aria-hidden="true"> Coverages</i></a>
+
+          </div>
+          <div class="col-md-3 col-lg-3"></div>
+      </div>
+         <!--  End Progress Icons -->
+        
+     <div class="container" style="padding-top:10px; padding-bottom:50px;">
+        <div class="row">
+            <div class="col-md-3"></div>
+                <div class="col-xs-12 col-sm-12 col-md-6">
+                    <div class="content">
+                        <table>
                         <tr><td class="text-left">Does anyone on this application have a felony?</td>
 
                        <td><select id="FelonyApp" class="pull-left">
@@ -111,7 +142,12 @@
                        </td></tr>
 
                       </table>
-                   </div>
+                   </div>             
+                 </div>
+            <div class="col-md-3"></div>
+        </div>
+    </div>
+
 
 
  <!--Fixed footer -->
@@ -133,5 +169,8 @@
     <!-- Placed at end so document loads faster -->
     <script src="../../Scripts/jquery-3.1.1.min.js"></script>
     <script src="../../Scripts/bootstrap.min.js"></script>
+
+
+    </form>
 </body>
 </html>

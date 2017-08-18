@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AgentWebSite.Quotes {
+namespace AgentWebSite.Quotes.Auto {
     
     
-    public partial class AutoQuoteDrivers {
+    public partial class Drivers {
     }
 }

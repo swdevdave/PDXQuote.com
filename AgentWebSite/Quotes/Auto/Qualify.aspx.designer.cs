@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AgentWebSite {
+namespace AgentWebSite.Quotes.Auto {
     
     
-    public partial class AutoQuote {
+    public partial class Qualify {
         
         /// <summary>
         /// form2 control.
@@ -119,5 +119,14 @@ namespace AgentWebSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button Button1;
+        
+        /// <summary>
+        /// submitButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button submitButton;
     }
 }

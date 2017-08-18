@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Qualify.aspx.cs" Inherits="AgentWebSite.AutoQuote" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Qualify.aspx.cs" Inherits="AgentWebSite.Quotes.Auto.Qualify" %>
 
 <!DOCTYPE html>
 
@@ -45,73 +45,72 @@
        
         <h1></h1>
         
-    
-    
-    
-    <div class="container">
-        <div>
-            <div>
-                <h3>Thank you for choosing American National for your Insurance needs. Before we get started, please review a few qualifing questions. Please answer honestly.</h3>
+    <div class="container" style="padding-top:10px; padding-bottom:50px;">
+        <div class="row">
+            <div class="col-md-3"></div>
+                <div class="col-md-6 text-center">    
+                 <div class="content">
+                    
 
-                <br />
+                         <h3>Thank you for choosing American National for your Insurance needs. Before we get started, please review a few qualifing questions. Please answer honestly.</h3>
 
-            </div>
-            <div>
-            <p>The following information will be for used for the purpose of obtaining a quote with American National Propery & Casulty(ANPAC). Your information will not be shared with anyone beyond Me (Dave King) and (American National Property & Casulty).</p>
-                <p>&nbsp;</p>
+                                <br />
 
+
+                            <p>The following information will be for used for the purpose of obtaining a quote with American National Propery & Casulty(ANPAC). Your information will not be shared with anyone beyond Me (Dave King) and (American National Property & Casulty).</p>
+                                <p>&nbsp;</p>
+
+
+                             <br />
+                            <p><strong>Please check that you have read the above statement.</strong><br /><br />
+                                <span style="font-size:small;">
+                            <asp:CheckBox ID="okCheckBox" runat="server" Text=" I Understand" /><br /><br />
+                                </span>
+                            </p>
+                            <p><strong>Please answer the following:</strong><br /><br />
+                                <span style="font-size:small;">
+                                <asp:RadioButton ID="posFelonyRadioButton" runat="server" GroupName="Felony" Text="I have a Felony" /><br />
+
+                                <asp:RadioButton ID="negFelonyRadioButton" runat="server" GroupName="Felony" Text="I do Not have a Felony." /><br />
+                                 </span>
+                             </p>
+                             <br />
+                             <p><strong>If you choose to do business with us, how will you be paying?</strong><br /><br />
+                                 <span style="font-size:small;">
+                                <asp:RadioButton ID="CheckingSavings" runat="server" GroupName="Payment" Text="Monthy, with Checking/Savings Account" /><br />
+
+                                <asp:RadioButton ID="NoPayment" runat="server" GroupName="Payment" Text="I do not have a Checking or Savings Account" /><br />
+
+                                <asp:RadioButton ID="OtherPayment" runat="server" GroupName="Payment" Text="I wish to pay Quartly, or 6 months at a time" /><br />
+                                 </span>
+                            </p>
+                             <br />    
+                             <p> 
+                                 <strong>Vehicle location and living information:</strong><br /><br />
+                                 <span style="font-size:small;">
+                                 <asp:RadioButton ID="homeRadioButton" runat="server" GroupName="Home" Text="I live in a Home or Appartment" /><br />
+
+                                 <asp:RadioButton ID="newerRadioButton" runat="server" GroupName="Home" Text="I live in a Mobile Home 1994 or newer" /><br />
+
+                                 <asp:RadioButton ID="olderRadioButton" runat="server" GroupName="Home" Text="I live in a Mobile Home 1993 or older" /><br />
+                                 </span>
+                             </p>
+                            <br />
+                            
+                                 <span style="color:red">
+                                 <asp:Label ID="resultLabel" Style="font-size:large;"  runat="server" ></asp:Label><br />
+                                 <asp:Button ID="Button1" runat="server" Text="Submit" />
+                         <br />
+                         <asp:Button ID="submitButton" runat="server" Text="Submit" />
+                                 </span>
+
+
+                     </div>
+                    
                 </div>
-            </div>
-         <div>
-             <br />
-            <p><strong>Please check that you have read the above statement.</strong><br /><br />
-                <span style="font-size:small;">
-            <asp:CheckBox ID="okCheckBox" runat="server" Text=" I Understand" /><br /><br />
-                </span>
-            </p>
-            <p><strong>Please answer the following:</strong><br /><br />
-                <span style="font-size:small;">
-                <asp:RadioButton ID="posFelonyRadioButton" runat="server" GroupName="Felony" Text="I have a Felony" /><br />
-
-                <asp:RadioButton ID="negFelonyRadioButton" runat="server" GroupName="Felony" Text="I do Not have a Felony." /><br />
-                 </span>
-             </p>
-             <br />
-             <p><strong>If you choose to do business with us, how will you be paying?</strong><br /><br />
-                 <span style="font-size:small;">
-                <asp:RadioButton ID="CheckingSavings" runat="server" GroupName="Payment" Text="Monthy, with Checking/Savings Account" /><br />
-
-                <asp:RadioButton ID="NoPayment" runat="server" GroupName="Payment" Text="I do not have a Checking or Savings Account" /><br />
-
-                <asp:RadioButton ID="OtherPayment" runat="server" GroupName="Payment" Text="I wish to pay Quartly, or 6 months at a time" /><br />
-                 </span>
-            </p>
-             <br />    
-             <p> 
-                 <strong>Vehicle location and living information:</strong><br /><br />
-                 <span style="font-size:small;">
-                 <asp:RadioButton ID="homeRadioButton" runat="server" GroupName="Home" Text="I live in a Home or Appartment" /><br />
-
-                 <asp:RadioButton ID="newerRadioButton" runat="server" GroupName="Home" Text="I live in a Mobile Home 1994 or newer" /><br />
-
-                 <asp:RadioButton ID="olderRadioButton" runat="server" GroupName="Home" Text="I live in a Mobile Home 1993 or older" /><br />
-                 </span>
-             </p>
-            <br />
-             <p> 
-                 <span style="color:red">
-                 <asp:Label ID="resultLabel" Style="font-size:large;"  runat="server" ></asp:Label><br />
-                 </span>
-                 
-             </p>
-             <p> 
-                 <asp:Button ID="Button1" runat="server" class="bg-primary" OnClick="Button1_Click" Text="Continue to Application" />
-                 
-             </p>
-
-         </div>
-       </div>
-               
+            <div class="col-md-3"></div>
+      </div>
+   </div>
 
         
 

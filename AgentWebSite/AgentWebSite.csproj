@@ -73,13 +73,13 @@
   <ItemGroup>
     <Content Include="About.aspx" />
     <Content Include="assets\images.png" />
-    <Content Include="Quotes\Auto\QuoteStart.aspx" />
     <Content Include="Quotes\Auto\Coverages.aspx" />
     <Content Include="Quotes\Auto\Drivers.aspx" />
     <Content Include="Quotes\Auto\Qualify.aspx" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\jquery.steps.css" />
     <Content Include="Current Status of project.txt" />
+    <Content Include="Quotes\Auto\QuoteStart.aspx" />
     <Content Include="Quotes\Auto\Underwriting.aspx" />
     <Content Include="Quotes\Auto\Vehicles.aspx" />
     <Content Include="Quotes\HomeOwners\Quote.aspx" />
@@ -142,13 +142,6 @@
     <Compile Include="About.aspx.designer.cs">
       <DependentUpon>About.aspx</DependentUpon>
     </Compile>
-    <Compile Include="Quotes\Auto\QuoteStart.aspx.cs">
-      <DependentUpon>QuoteStart.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Quotes\Auto\QuoteStart.aspx.designer.cs">
-      <DependentUpon>QuoteStart.aspx</DependentUpon>
-    </Compile>
     <Compile Include="Helpers\ClientData.cs" />
     <Compile Include="Quotes\Auto\Coverages.aspx.cs">
       <DependentUpon>Coverages.aspx</DependentUpon>
@@ -188,6 +181,13 @@
     </Compile>
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\Auto\QuoteStart.aspx.cs">
+      <DependentUpon>QuoteStart.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quotes\Auto\QuoteStart.aspx.designer.cs">
+      <DependentUpon>QuoteStart.aspx</DependentUpon>
     </Compile>
     <Compile Include="Quotes\Auto\Underwriting.aspx.cs">
       <DependentUpon>Underwriting.aspx</DependentUpon>

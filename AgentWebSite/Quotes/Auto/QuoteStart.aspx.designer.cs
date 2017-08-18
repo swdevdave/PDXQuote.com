@@ -7,10 +7,10 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace AgentWebSite {
+namespace AgentWebSite.Quotes.Auto {
     
     
-    public partial class AutoQuote1 {
+    public partial class QuoteStart {
         
         /// <summary>
         /// FormStartPage control.
@@ -20,5 +20,14 @@ namespace AgentWebSite {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm FormStartPage;
+        
+        /// <summary>
+        /// AddDriversButton control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button AddDriversButton;
     }
 }
