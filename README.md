@@ -6,7 +6,7 @@ Create default page- Done
 
 #### V 0.2
 
-Create header & Footer - Done
+Create Header & Footer - Done
 
 #### V 0.5
 
