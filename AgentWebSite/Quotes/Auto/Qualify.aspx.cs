@@ -9,7 +9,7 @@ namespace AgentWebSite.Quotes.Auto
 
         }
 
-        protected void Button1_Click(object sender, EventArgs e)
+        protected void QualifyButton_Click(object sender, EventArgs e)
         {
             if (!okCheckBox.Checked)
             {
@@ -18,7 +18,7 @@ namespace AgentWebSite.Quotes.Auto
 
             else if (posFelonyRadioButton.Checked || NoPayment.Checked)
             {
-                Response.Redirect("Quotes/NoQual.aspx");
+                Response.Redirect("../NoQual.aspx");
             }
 
             else if (!posFelonyRadioButton.Checked && !negFelonyRadioButton.Checked)
@@ -38,7 +38,7 @@ namespace AgentWebSite.Quotes.Auto
 
             else
             {
-                Response.Redirect("Quotes/Auto/QuoteStart.aspx");
+                Response.Redirect("QuoteStart.aspx");
             }
         }       
     }

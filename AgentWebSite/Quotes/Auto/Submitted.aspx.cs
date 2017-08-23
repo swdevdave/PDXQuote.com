@@ -7,14 +7,9 @@ using System.Web.UI.WebControls;
 
 namespace AgentWebSite.Quotes.Auto
 {
-    public partial class Underwriting : System.Web.UI.Page
+    public partial class Submitted : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        protected void UnderwritingButton_Click(object sender, EventArgs e)
         {
 
         }

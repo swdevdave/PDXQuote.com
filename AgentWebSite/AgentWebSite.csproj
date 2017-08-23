@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -77,9 +78,9 @@
     <Content Include="Quotes\Auto\Drivers.aspx" />
     <Content Include="Quotes\Auto\Qualify.aspx" />
     <Content Include="Contact.aspx" />
-    <Content Include="Content\jquery.steps.css" />
     <Content Include="Current Status of project.txt" />
     <Content Include="Quotes\Auto\QuoteStart.aspx" />
+    <Content Include="Quotes\Auto\Submitted.aspx" />
     <Content Include="Quotes\Auto\Underwriting.aspx" />
     <Content Include="Quotes\Auto\Vehicles.aspx" />
     <Content Include="Quotes\HomeOwners\Quote.aspx" />
@@ -188,6 +189,13 @@
     </Compile>
     <Compile Include="Quotes\Auto\QuoteStart.aspx.designer.cs">
       <DependentUpon>QuoteStart.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Quotes\Auto\Submitted.aspx.cs">
+      <DependentUpon>Submitted.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Quotes\Auto\Submitted.aspx.designer.cs">
+      <DependentUpon>Submitted.aspx</DependentUpon>
     </Compile>
     <Compile Include="Quotes\Auto\Underwriting.aspx.cs">
       <DependentUpon>Underwriting.aspx</DependentUpon>

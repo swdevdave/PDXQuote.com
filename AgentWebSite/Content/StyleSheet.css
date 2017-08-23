@@ -72,3 +72,27 @@ body {
 #srbutton{
     color:white;
 }
+
+#glyph{
+    text-align:center;
+    display:inline-block;
+}
+
+#TotalDrivers {
+    max-width: 100px;
+    margin:auto;
+
+}
+
+#BtnPosition{
+    text-align:right;
+}
+
+#TotalDrivers {
+    #TotalDrivers
+
+{
+    max-width: 100px;
+    margin: auto;
+}
+}

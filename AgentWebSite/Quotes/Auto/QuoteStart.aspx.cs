@@ -11,19 +11,16 @@ namespace AgentWebSite.Quotes.Auto
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            
         }
 
-        private void AddDriversButton_Click(object sender, EventArgs e)
+        private void StartButton_Click(object sender, EventArgs e)
         {
             Response.Redirect("Drivers.aspx");
 
 
         }
 
-        private void GoHome_Click(object sender, EventArgs e)
-        {
-            Response.Redirect("../../default.aspx");
-        }
+
     }
 }

@@ -13,5 +13,11 @@ namespace AgentWebSite.Quotes.Auto
         {
 
         }
+        private void FinishButton_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Submitted.aspx");
+
+
+        }
     }
 }
